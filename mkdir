@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -p -v ${pwd}ho/hoho
