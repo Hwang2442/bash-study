@@ -1,1 +1,4 @@
 #!/bin/bash
+uri="https://thumb2.photo.mybox.naver.com/3472568911278351425?type=m1280_1280_2&shared_url=uotI2oUiT8InLx/uSDvXLiVLmzELW11/bvi9VPuzvJ6FiIOl23iwKZMME6fxnF+hPZM04cCfIv4TmpxujazoaAM="
+dest=test.png
+wget --no-check-certificate $uri -O $dest
